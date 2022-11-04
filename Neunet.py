@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class Neunet:
-    # Neural Network object has a list of weights, bias, and 
+    # Neural Network object has a list of weights, bias, and learning rate
     def __init__(self, l_rate):
         self.weights = np.array([np.random.randn(), np.random.randn()])
         self.bias = np.random.randn()
